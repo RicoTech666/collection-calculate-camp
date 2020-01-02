@@ -14,6 +14,7 @@ function double_to_one(collection) {
   return eliminateRepetition(oneDimArr);
 }
 
+//TODO: 抽方法很好！
 function eliminateRepetition(arr) {
   var arrNoRepetition = [];
   for (var i = 0; i < arr.length; i++) {

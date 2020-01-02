@@ -13,7 +13,7 @@ function getMathcedSubArr(collection, element) {
     }
     return matchedSub;
   }, []);
-  return matchedSubArr;
+  return matchedSubArr; //TODO: 变量可以inline
 }
 
 module.exports = calculate_elements_sum;

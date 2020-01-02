@@ -8,14 +8,14 @@ function compute_chain_median(collection) {
 
 function getArrayFromChain(strChain) {
   var arr = strChain.split("->").map(Number);
-  return arr;
+  return arr; //TODO: 变量可以inline
 }
 
 function sortArrAsc(arrUnsorted) {
   var arrSorted = arrUnsorted.sort(function(leftNum, rightNum) {
     return rightNum - leftNum;
   });
-  return arrSorted;
+  return arrSorted; //TODO: 变量可以inline
 }
 
 function getMedianFromArr(arrSorted) {

@@ -1,7 +1,7 @@
 "use strict";
 var even_asc_odd_desc = function(collection) {
   var evenSubAsc = rankAsc(getEvenElems(collection));
-  console.log(evenSubAsc);
+  console.log(evenSubAsc); //TODO: excuse me？？？
   var oddSubDesc = rankDesc(getOddElems(collection));
   var evenAscOddDesc = evenSubAsc;
   while (0 !== oddSubDesc.length) {
@@ -10,6 +10,7 @@ var even_asc_odd_desc = function(collection) {
   return evenAscOddDesc;
 };
 
+//TODO: 这两个方法很想，看看有没有好办法写成一个？
 function getEvenElems(arr) {
   var evenArr = [];
   for (let i = 0; i < arr.length; i++) {

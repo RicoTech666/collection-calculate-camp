@@ -2,7 +2,7 @@
 var single_element = function(collection) {
   var eventhArr = getEventhElems(collection);
   var singleElements = findDistinctElems(eventhArr);
-  return singleElements;
+  return singleElements; //TODO: 变量可以inline
 };
 
 function getEventhElems(originalArr) {

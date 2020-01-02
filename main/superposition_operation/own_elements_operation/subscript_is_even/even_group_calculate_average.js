@@ -7,11 +7,11 @@ var even_group_calculate_average = function(collection) {
   } else {
     var arrReallocated = reallocateByNumberLength(getEvenElems(evenArr));
     var avgArr = calculate2DArrAverage(arrReallocated);
-    return avgArr;
+    return avgArr; //TODO: 变量可以inline
   }
 };
 
-function getEventhElems(originalArr) {
+function getEventhElems(originalArr) { //TODO: 拼写错误
   var evenIndexArr = [];
   for (let index = 0; index < originalArr.length; index++) {
     const elem = originalArr[index];

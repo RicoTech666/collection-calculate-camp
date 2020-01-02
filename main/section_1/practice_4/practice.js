@@ -10,14 +10,14 @@ function getKeysFromObjectArray(ObjectArray) {
   });
 }
 
-function getElemsByAttributeName(arrObj, attrStr) {
+function getElemsByAttributeName(arrObj, attrStr) { //TODO: 这种方法没必要抽出来，只有一行实现，并且实现简单
   return arrObj[attrStr];
 }
 
 function collectSameElemsOneDim(collection_a, collection_b) {
   var theSameElems = [];
   for (var i = 0; i < collection_a.length; i++) {
-    if (-1 != collection_b.indexOf(collection_a[i])) {
+    if (-1 != collection_b.indexOf(collection_a[i])) { //TODO: 两个等号？
       theSameElems.push(collection_a[i]);
     }
   }

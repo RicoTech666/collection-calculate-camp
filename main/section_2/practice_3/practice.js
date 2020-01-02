@@ -51,7 +51,7 @@ function isColon(str) {
 function processDash(str) {
   var dashArr = [];
   dashArr = str.split("-");
-  return dashArr;
+  return dashArr; //TODO: 变量可以inline
 }
 
 function processBrackets(str) {
@@ -64,7 +64,7 @@ function processBrackets(str) {
 function processColon(str) {
   var colonArr = [];
   colonArr = str.split(":");
-  return colonArr;
+  return colonArr; //TODO: 变量可以inline
 }
 
 function countObjToObjArray(countedObj) {

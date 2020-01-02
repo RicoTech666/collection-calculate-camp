@@ -1,6 +1,6 @@
 function count_same_elements(collection) {
   var countedObjFromCollection = countArrToObj(collection);
-  var objArrayDashTransfered = transferDashNumberToValue(
+  var objArrayDashTransfered = transferDashNumberToValue( //TODO: 拼写错误
     countedObjFromCollection
   );
   return countObjToObjArray(objArrayDashTransfered);
@@ -17,7 +17,7 @@ function countArrToObj(arr) {
   }, {});
 }
 
-function transferDashNumberToValue(objNeedToBeTransfered) {
+function transferDashNumberToValue(objNeedToBeTransfered) { //TODO: 拼写错误
   var arrObj = objNeedToBeTransfered;
   for (var key in arrObj) {
     if (-1 !== key.indexOf("-")) {

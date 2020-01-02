@@ -5,9 +5,11 @@ function spilt_to_zero(number, interval) {
   return generateSplitArr(number, interval, isZero);
 }
 
-function canBeSplitedToZero(number, interval) {
+function canBeSplitedToZero(number, interval) { //TODO: 拼写错误
   var numberInt = toInt(number);
   var intervalInt = toInt(interval);
+
+  //TODO: 你咋还这么写呢？？
   if (0 === numberInt % intervalInt) {
     return true;
   } else {
@@ -15,8 +17,8 @@ function canBeSplitedToZero(number, interval) {
   }
 }
 
-function generateSplitArr(number, interval, canBeSplitedToZero) {
-  var splitedArr = [];
+function generateSplitArr(number, interval, canBeSplitedToZero) { //TODO: 拼写错误
+  var splitedArr = []; //TODO: 拼写错误
   var numberInt = toInt(number);
   var intervalInt = toInt(interval);
   if (canBeSplitedToZero) {

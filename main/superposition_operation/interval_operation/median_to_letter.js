@@ -14,7 +14,7 @@ function sortArrAsc(arrUnsorted) {
   var arrSorted = arrUnsorted.sort(function(leftNum, rightNum) {
     return rightNum - leftNum;
   });
-  return arrSorted;
+  return arrSorted; //TODO: 变量可以inline
 }
 
 function getMedianFromArr(arrSorted) {

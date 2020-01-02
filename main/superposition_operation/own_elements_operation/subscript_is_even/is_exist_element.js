@@ -2,7 +2,7 @@
 var is_exist_element = function(collection, element) {
   var evenArr = getEvenIndexElems(collection);
   var isElemInArr = isExist(evenArr, element);
-  return isElemInArr;
+  return isElemInArr; //TODO: 变量可以inline
 };
 
 function getEvenIndexElems(originalArr) {
